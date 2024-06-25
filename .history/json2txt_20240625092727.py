@@ -57,8 +57,8 @@ def decode_json(json_floder_path, txt_outer_path, json_name):
  
  
 if __name__ == "__main__":
-    json_floder_path = 'C:/Users/username/Desktop/HERO/cam0_sentry_B/label_json/' #请将json文件的文件夹放在该文件夹下
-    txt_outer_path = 'C:/Users/username/Desktop/HERO/cam0_sentry_B/label_txt/' 
+    json_floder_path = 'C:/Users/username/Desktop/HERO/cam0_sentry_B/label/' #请将json文件的文件夹放在该文件夹下
+    txt_outer_path = 'C:/Users/17007/Desktop/4号搞下来的/HERO/cam0_sentry_B/label_txt/' 
     json_names = os.listdir(json_floder_path)
     print("共有：{}个文件待转化".format(len(json_names)))
     flagcount = 0

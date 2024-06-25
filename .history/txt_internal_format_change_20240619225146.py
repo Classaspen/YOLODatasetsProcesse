@@ -1,8 +1,8 @@
 import os
 
 # 设置输入和输出目录
-input_dir = 'C:/Users/username/Desktop/HERO/cam0_sentry_B/label_txt/'
-output_dir = 'C:/Users/username/Desktop/HERO/cam0_sentry_B/labels/'
+input_dir = 'M:/RM_datasets/sentry_red_blue/raw_labels/train/'
+output_dir = 'M:/RM_datasets/sentry_red_blue/labels/train/'
 
 # 确保输出目录存在
 if not os.path.exists(output_dir):

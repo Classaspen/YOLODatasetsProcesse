@@ -105,8 +105,8 @@ def split_label(dataset_all_path, dataset_split_path, train_percent=0.85, val_pe
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--all_dir', type=str, default="C:/Users/username/Desktop/HERO/cam0_sentry_B", help='Location of the original all datasets')
-    parser.add_argument('--split_dir', type=str, default="C:/Users/username/Desktop/HERO/cam0_sentry_B", help='Output location of the split dataset')
+    parser.add_argument('--all_dir', type=str, default="C:/Users/username/Desktop/HERO/cam0_sentry_B/label_txt/", help='Location of the original all datasets')
+    parser.add_argument('--split_dir', type=str, default="C:/Users/17007/Desktop/from_4/HERO/cam0_sentry_B", help='Output location of the split dataset')
     parser.add_argument('--train_percent', type=float, default=0.9, help='train dataset percent')
     parser.add_argument('--val_percent', type=float, default=0.1, help='val dataset percent')
     parser.add_argument('--test_mode', action='store_true', help='split test dataset')
